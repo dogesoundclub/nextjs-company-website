@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Layout>
         <Head>
-            <title>빡코딩 포트폴리오</title>
+            <title>DSC LABEL</title>
             <meta name="description" content="오늘도 빡코딩!" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
