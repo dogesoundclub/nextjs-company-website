@@ -34,7 +34,8 @@ export default function Projects({projects}) {
 // export async function getStaticProps() {
 
 // 각 요청 때마다 호출
-export async function getServerSideProps() {
+// export async function getServerSideProps() {
+export async function getStaticProps() {
 
     const options = {
         method: 'POST',
@@ -47,7 +48,7 @@ export async function getServerSideProps() {
         body: JSON.stringify({
             sorts: [
                 {
-                    "property": "Name",
+                    "property": "Projects",
                     "direction": "ascending"
                 }
             ],
@@ -59,11 +60,14 @@ export async function getServerSideProps() {
 
     const projects = await res.json()
 
-    const projectNames = projects.results.map((aProject) =>(
-        aProject.properties.Name.title[0].plain_text
-    ))
+    console.log(projects)
 
-    console.log(`projectNames : ${projectNames}`);
+    // const projectNames = projects.results.map((aProject) =>(
+    //     aProject.properties.Projects.title[0].plain_text
+    // ))
+
+    // console.log(`projectNames : ${projectNames}`);
+
 
     return {
       props: {projects}, // will be passed to the page component as props
