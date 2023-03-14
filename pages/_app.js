@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import '../public/fonts/style.css'
+import '/components/home/hero.css'
 
 import { ThemeProvider } from 'next-themes'
 

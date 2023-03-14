@@ -1,9 +1,9 @@
 import React from 'react'
 import Lottie from 'react-lottie-player'
 
-import lottieJson from '/public/animation.json'
+import lottieJson from '/public/lotties/featureAnimation.json'
 
-export default function Animation() {
+export default function featureAnimation() {
   return (
     <Lottie
       loop

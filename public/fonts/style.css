@@ -11,3 +11,19 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("NotoSans/NotoSans-Regular.ttf") format("opentype");
+  /* src: url("neodgm.woff") format("opentype"); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSansBold";
+  src: url("NotoSans/NotoSans-Bold.ttf") format("opentype");
+  /* src: url("neodgm.woff") format("opentype"); */
+  font-weight: normal;
+  font-style: normal;
+}

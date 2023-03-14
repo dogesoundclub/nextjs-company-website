@@ -10,6 +10,8 @@ module.exports = {
         fontFamily: {
             BrothersBold : "BrothersBold",
             neodgm: "neodgm", // 오른쪽이 실제 폰트명이 됨.
+            NotoSans: "NotoSans",
+            NotoSansBold: "NotoSansBold"
         },
     },
     plugins: [],
