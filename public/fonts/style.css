@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "BrothersBold";
+  src: url("BrothersBold.woff") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "neodgm";
+  src: url("neodgm.woff") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

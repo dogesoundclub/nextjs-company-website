@@ -9,7 +9,7 @@ export default function Home() {
     <Layout>
         <Head>
             <title>DSC LABEL</title>
-            <meta name="description" content="오늘도 빡코딩!" />
+            <meta name="description" content="오픈 라이센스 " />
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">

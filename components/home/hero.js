@@ -5,10 +5,11 @@ export default function Hero() {
     return (
         <>
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-                Make Universes Linked
-                {/* <br className="hidden lg:inline-block"/>
-                오늘도 빡코딩? */}
+            <h1 className="font-BrothersBold sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                CONTRIBUTING WORLD
+            </h1>
+            <h1 className="font-BrothersBold sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                WITH OPEN LICENSES
             </h1>
             <p className="mb-8 leading-relaxed">
             

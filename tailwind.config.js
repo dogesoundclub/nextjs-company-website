@@ -7,6 +7,10 @@ module.exports = {
     darkMode: 'class',
     theme: {
         extend: {},
+        fontFamily: {
+            BrothersBold : "BrothersBold",
+            neodgm: "neodgm", // 오른쪽이 실제 폰트명이 됨.
+        },
     },
     plugins: [],
 }
