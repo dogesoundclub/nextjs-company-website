@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/layout';
-import Hero from '../components/home/hero';
-import HeroAnimation from '../components/home/heroAnimation';
+import Hero from '../components/sectionHero/hero';
 
 export default function Home() {
   return (
