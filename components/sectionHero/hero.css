@@ -1,23 +1,43 @@
-/* 화녕 아래에서 위로 */
-.animation-container {
-    position: relative;
+.animationContainer {
     overflow: hidden;
     height: 15vh;
   }
-  .animation-text {
-    position: absolute;
-    bottom: 0;
+
+/* Animation 1 */
+  .slideRightAnimation {
+    animation: slideRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slideRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-200px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+/* Animation 2 */
+  .slideUpAnimation {
+    animation: slideUp 2s ease-out forwards;
+    /* bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: flex-end;
-    opacity: 0;
+    opacity: 0; */
     transform: translateY(100%);
-    animation: slide-up 2s ease-out forwards;
   }
 
-  @keyframes slide-up {
+  @keyframes slideUp {
     0% {
       opacity: 0;
       transform: translateY(100%);
@@ -28,27 +48,3 @@
     }
   }
 
-
-  /* 화면 왼쪽에서 등장 */  
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-      transform: translateX(-200px);
-    }
-    /* 50% {
-      opacity: 0.5;
-      transform: translateX(-10px);
-    } */
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  .animate-fade-in {
-    animation-name: fade-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
-  }

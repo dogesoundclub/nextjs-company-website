@@ -1,0 +1,9 @@
+{
+    "exec": "next dev",
+    "ext": "js,json",
+    "ignore": ["node_modules"],
+    "execMap": {
+      "js": "node -r dotenv/config -r esm"
+    },
+    "delay": 2000
+  }

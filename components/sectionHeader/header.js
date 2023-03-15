@@ -2,22 +2,22 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
 import DarkModeToggleButton from '../scripts/dark-mode-toggle-button';
+import Image from 'next/image'
 
 export default function Header(){
     const { theme } = useTheme();
-    // const [headerOpacity, setHeaderOpacity] = useState(0);
 
     const handleHomeButtonClick = () => {
-        const teamSection = document.getElementById('home');
-        if (teamSection) {
-        window.scrollTo({ top: teamSection.offsetTop, behavior: 'smooth' });
+        const homeSection = document.getElementById('home');
+        if (homeSection) {
+        window.scrollTo({ top: homeSection.offsetTop, behavior: 'smooth' });
         }
     };
 
     const handleSolutionsButtonClick = () => {
-        const teamSection = document.getElementById('solution');
-        if (teamSection) {
-        window.scrollTo({ top: teamSection.offsetTop, behavior: 'smooth' });
+        const solutionSection = document.getElementById('solution');
+        if (solutionSection) {
+        window.scrollTo({ top: solutionSection.offsetTop, behavior: 'smooth' });
         }
     };
 
@@ -45,44 +45,37 @@ export default function Header(){
 
     return (
         <>
-            <header className="fixed top-0 left-0 right-0 z-50 text-gray-600 body-font transition-colors duration-1000 ease-in-out">
+            <header className="md:mb-4 fixed top-0 left-0 right-0 z-50 text-gray-600 body-font transition-colors duration-1000 ease-in-out">
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-
                     <Link href="/">
                     <a className="flex titlefont font-medium items-center text-gray-900 mb-4 md:mb-0">
-                        <img src={`/logo/${theme === 'light' ? 'logoForLight.png' : 'logoForNight.png'}`}
+                        <Image src={`/logo/${theme === 'light' ? 'logoForLight.png' : 'logoForNight.png'}`}
                                alt="로고 이미지"
-                               className="w-18 h-12"/>
+                               width="48"
+                               height="36"
+                        />
                     </a>
                     </Link>
-
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-
                         <button
                         className="font-NotoSansBold mr-5 hover:text-gray-200"
-                        onClick={handleHomeButtonClick}
-                        >
+                        onClick={handleHomeButtonClick}>
                         HOME
                         </button>
 
                         <button
                         className="font-NotoSansBold mr-5 hover:text-gray-200"
-                        onClick={handleTeamButtonClick}
-                        >
+                        onClick={handleSolutionsButtonClick}>
                         SOLUTION
                         </button>
 
                         <button
                         className="font-NotoSansBold mr-5 hover:text-gray-200"
-                        onClick={handleTeamButtonClick}
-                        >
+                        onClick={handleTeamButtonClick}>
                         TEAM
                         </button>
-
-
                     </nav>
-                    {/* 다크모드 토글 버튼 작업해야함 */}
-                    <DarkModeToggleButton/>
+                    {/* <DarkModeToggleButton/> */}
                 </div>
             </header>
         </>
