@@ -114,7 +114,7 @@ export default function Solutions() {
                 {/* <img className="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"></img> */}
                 <div className="flex flex-col text-center w-full">
                 <h1 className="font-NotoSansBold  text-xl font-medium title-font mb-4 text-gray-900">{title}</h1>
-                <p className="font-NotoSans text-center lg:w-1/4  mx-auto leading-relaxed">{description}</p>
+                <p className="font-NotoSans text-center w-full lg:w-1/4  mx-auto leading-relaxed">{description}</p>
                 </div>
             </div>
             </section>

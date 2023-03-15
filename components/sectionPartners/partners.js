@@ -14,9 +14,15 @@ export default function Partners() {
                       {/* <p className="font-NotoSansBold lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p> */}
               </div>
               <div className="flex flex-wrap -m-4">
-                <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <div className="lg:w-1/4 md:w-1/2 p-4 w-full h-full">
                   <a className="block relative h-48 rounded overflow-hidden">
-                    <Image alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x420"></Image>
+                    <Image 
+                      alt="ecommerce" 
+                      className="" 
+                      src="https://dummyimage.com/420x420"
+                      width="420"
+                      height="420">
+                    </Image>
                   </a>
                   {/* <div className="mt-4">
                     <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
@@ -26,7 +32,13 @@ export default function Partners() {
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                   <a className="block relative h-48 rounded overflow-hidden">
-                    <Image alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x420"></Image>
+                    <Image 
+                      alt="ecommerce" 
+                      className="" 
+                      src="https://dummyimage.com/420x420"
+                      width="420"
+                      height="420">
+                    </Image>
                   </a>
                   {/* <div className="mt-4">
                     <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
@@ -36,7 +48,13 @@ export default function Partners() {
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                   <a className="block relative h-48 rounded overflow-hidden">
-                    <Image alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x420"></Image>
+                    <Image 
+                      alt="ecommerce" 
+                      className="" 
+                      src="https://dummyimage.com/420x420"
+                      width="420"
+                      height="420">
+                    </Image>
                   </a>
                   {/* <div className="mt-4">
                     <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
@@ -46,7 +64,13 @@ export default function Partners() {
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                   <a className="block relative h-48 rounded overflow-hidden">
-                    <Image alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x420"></Image>
+                    <Image 
+                      alt="ecommerce" 
+                      className="" 
+                      src="https://dummyimage.com/420x420"
+                      width="420"
+                      height="420">
+                    </Image>
                   </a>
                   {/* <div className="mt-4">
                     <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
