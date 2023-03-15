@@ -15,9 +15,9 @@ export default function Header(){
     };
 
     const handleSolutionsButtonClick = () => {
-        const solutionSection = document.getElementById('solution');
-        if (solutionSection) {
-        window.scrollTo({ top: solutionSection.offsetTop, behavior: 'smooth' });
+        const solutionsSection = document.getElementById('solutions');
+        if (solutionsSection) {
+        window.scrollTo({ top: solutionsSection.offsetTop, behavior: 'smooth' });
         }
     };
 

@@ -8,7 +8,7 @@ export default function Partners() {
         <>
           <section >
               <div className="flex flex-col text-center w-full mb-20">
-                      <h1 className="font-BrothersBold sm:text-3xl text-2xl mb-4 text-gray-900">People</h1>
+                      <h1 className="font-BrothersBold sm:text-3xl text-2xl mb-4 text-gray-900">Partners</h1>
               </div>  
               <div className='flex justify-center'>       
               <div className="flex-1">
