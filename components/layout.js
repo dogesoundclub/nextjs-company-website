@@ -8,8 +8,7 @@ import Press from './sectionPress/press';
 
 export default function Layout({ children }) {
     return (
-        <div id="home" className="bg-primary relative">
-            <Header style={{ position: "relative", zIndex: 2 }}/>
+        <div id="home" className="bg-primary">
             <div style={{ position: "relative", zIndex: 1 }}>{children}</div>
             <Solutions style={{ position: "relative", zIndex: 1 }}/>
             <Statistic style={{ position: "relative", zIndex: 1 }}/>
@@ -17,6 +16,7 @@ export default function Layout({ children }) {
             <Partners style={{ position: "relative", zIndex: 1 }}/>
             <Press style={{ position: "relative", zIndex: 1 }}/>
             <Footer style={{ position: "relative", zIndex: 1 }}/>
+            <Header style={{ position: "relative", zIndex: 10 }}/>
         </div>
     );
 }
