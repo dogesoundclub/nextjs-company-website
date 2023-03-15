@@ -9,7 +9,7 @@ import Press from './sectionPress/press';
 export default function Layout({ children }) {
     return (
         <div id="home" className="bg-primary">
-            <Header/>
+            <Header style={{ position: "relative", zIndex: 2 }}/>
             <div>{children}</div>
             <Solutions/>
             <Statistic/>
