@@ -1,19 +1,21 @@
 import Header from './sectionHeader/header';
-import Feature from './sectionSolutions/_solutions';
+import Solutions from './sectionSolutions/solutions';
 import Statistic from './sectionStat/stat';
 import Team from './sectionTeam/team';
 import Footer from './sectionFooter/footer';
 import Partners from './sectionPartners/partners'
+import Press from './sectionPress/press';
 
 export default function Layout({ children }) {
     return (
-        <div className="bg-primary">
+        <div id="home" className="bg-primary">
             <Header/>
             <div>{children}</div>
-            <Feature/>
+            <Solutions/>
             <Statistic/>
             <Team/>
             <Partners/>
+            <Press/>
             <Footer/>
         </div>
     );

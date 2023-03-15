@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+
 export default function Team() {
 
     return (
@@ -16,7 +17,7 @@ export default function Team() {
                         <Image
                             alt="team"
                             className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src="https://storage.googleapis.com/dsc-mate/336/dscMate-113.png"
+                            src="/profileDummy/dummyProfile0.png"
                             width={64}
                             height={64}
                             />
@@ -31,7 +32,7 @@ export default function Team() {
                         <Image
                             alt="team"
                             className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src="https://storage.googleapis.com/dsc-mate/336/dscMate-113.png"
+                            src="/profileDummy/dummyProfile1.png"
                             width={64}
                             height={64}
                             />
@@ -46,7 +47,7 @@ export default function Team() {
                         <Image
                             alt="team"
                             className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src="https://storage.googleapis.com/dsc-mate/336/dscMate-7376.png"
+                            src="/profileDummy/dummyProfile2.png"
                             width={64}
                             height={64}
                             />
@@ -61,7 +62,7 @@ export default function Team() {
                         <Image
                             alt="team"
                             className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src="https://dummyimage.com/104x94"
+                            src="/profileDummy/dummyProfile3.png"
                             width={64}
                             height={64}
                             />
@@ -76,7 +77,7 @@ export default function Team() {
                         <Image
                             alt="team"
                             className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src="https://storage.googleapis.com/dsc-mate/336/dscMate-5982.png"
+                            src="/profileDummy/dummyProfile4.png"
                             width={64}
                             height={64}
                             />
@@ -91,7 +92,7 @@ export default function Team() {
                         <Image
                             alt="team"
                             className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src="https://storage.googleapis.com/dsc-mate/336/dscMate-1735.png"
+                            src="/profileDummy/dummyProfile5.png"
                             width={64}
                             height={64}
                             />
@@ -106,7 +107,7 @@ export default function Team() {
                         <Image
                             alt="team"
                             className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src="https://storage.googleapis.com/dsc-mate/336/dscMate-4621.png"
+                            src="/profileDummy/dummyProfile6.png"
                             width={64}
                             height={64}
                             />
@@ -121,7 +122,7 @@ export default function Team() {
                         <Image
                             alt="team"
                             className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src="https://dummyimage.com/104x94"
+                            src="/profileDummy/dummyProfile7.png"
                             width={64}
                             height={64}
                             />
@@ -136,7 +137,7 @@ export default function Team() {
                         <Image
                             alt="team"
                             className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src="https://dummyimage.com/104x94"
+                            src="/profileDummy/dummyProfile8.png"
                             width={64}
                             height={64}
                             />

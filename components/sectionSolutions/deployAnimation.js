@@ -1,15 +1,15 @@
 import React from 'react'
 import Lottie from 'react-lottie-player'
 
-import lottieJson from '/public/lotties/featureAnimation.json'
+import lottieJson from '/public/lotties/deployAnimation.json'
 
-export default function featureAnimation() {
+export default function deployAnimation() {
   return (
     <Lottie
       loop
       animationData={lottieJson}
       play
-      style={{ width: `100%`, height: `100%` }}
+      style={{ width: `336px`, height: `336px` }}
     />
   )
 }

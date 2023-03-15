@@ -28,6 +28,26 @@ export default function Header(){
         }
     };
 
+    const handlePartnersButtonClick = () => {
+        const partnersSection = document.getElementById('partners');
+        if (partnersSection) {
+        window.scrollTo({ top: partnersSection.offsetTop, behavior: 'smooth' });
+        }
+    };
+
+    const handlePressButtonClick = () => {
+        const pressSection = document.getElementById('press');
+        if (pressSection) {
+        window.scrollTo({ top: pressSection.offsetTop, behavior: 'smooth' });
+        }
+    };
+    const handleContactButtonClick = () => {
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+        window.scrollTo({ top: contactSection.offsetTop, behavior: 'smooth' });
+        }
+    };
+
     useEffect(() => {
         const handleScroll = () => {
             const header = document.querySelector('header');
@@ -66,13 +86,31 @@ export default function Header(){
                         <button
                         className="font-NotoSansBold mr-5 hover:text-gray-200"
                         onClick={handleSolutionsButtonClick}>
-                        SOLUTION
+                        SOLUTIONS
                         </button>
 
                         <button
                         className="font-NotoSansBold mr-5 hover:text-gray-200"
                         onClick={handleTeamButtonClick}>
                         TEAM
+                        </button>
+
+                        <button
+                        className="font-NotoSansBold mr-5 hover:text-gray-200"
+                        onClick={handlePartnersButtonClick}>
+                        PARTNERS
+                        </button>
+
+                        <button
+                        className="font-NotoSansBold mr-5 hover:text-gray-200"
+                        onClick={handlePressButtonClick}>
+                        PRESS
+                        </button>
+
+                        <button
+                        className="font-NotoSansBold mr-5 hover:text-gray-200"
+                        onClick={handleContactButtonClick}>
+                        CONTACT
                         </button>
                     </nav>
                     {/* <DarkModeToggleButton/> */}
