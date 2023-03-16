@@ -5,8 +5,8 @@ const Hero = () => {
     {
       id: "upText",
       animationClass: "slideRightAnimation",
-      text: "Open licensing culture with NFT is changing our lives.",
-      fontSize: "text-xs lg:text-lg",
+      text1: "Open licensing culture with NFT is changing our lives.",
+      fontSize: "text-xs lg:text-base",
       marginBottom: "mb-4",
       leading: "leading-relaxed",
       whiteSpace: "whitespace-normal",
@@ -15,8 +15,10 @@ const Hero = () => {
     {
       id: "downText",
       animationClass: "slideUpAnimation opacity-0",
-      text: "OPEN YOUR UNIVERSE.\n\nWORLD WILL WELCOME YOU.",
-      fontSize: "text-xl lg:text-4xl",
+      text1: "OPEN YOUR UNIVERSE.",
+      text2: "WORLD WILL WELCOME YOU.",
+      textColor : "text-gray-100",
+      fontSize: "text-xl lg:text-2xl",
       lineHeight: "calc(var(--vh, 1vh) * 4",
     },
   ];
@@ -27,13 +29,14 @@ const Hero = () => {
         id="main-text"
         className="mx-auto lg:w-1/3 animationContainer flex flex-col items-center lg:items-start text-center lg:text-left mb-16 lg:mb-0 lg:-mr-48"
       >
-        {heroTexts.map(({ id, animationClass, text, ...rest }) => (
+        {heroTexts.map(({ id, animationClass, text1, text2, textColor, ...rest }) => (
           <p
             key={id}
             id={id}
-            className={`${animationClass} font-NotoSansBold ${rest.fontSize} ${rest.marginBottom} ${rest.leading} ${rest.whiteSpace}`}
+            className={`${animationClass} font-NotoSansBold ${textColor} ${rest.fontSize} ${rest.marginBottom} ${rest.leading} ${rest.whiteSpace}`}
           >
-            {text}
+            {text1} <br/>
+            {text2}
           </p>
         ))}
       </div>

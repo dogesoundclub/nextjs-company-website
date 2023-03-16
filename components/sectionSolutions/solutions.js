@@ -29,7 +29,7 @@ export default function Solutions() {
 
   return (
     <>
-      <section className="text-gray-600">
+      <section id="solutions" className="text-gray-600">
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="font-BrothersBold text-2xl text-gray-200 mb-4">Solutions</h1>
