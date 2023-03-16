@@ -11,7 +11,7 @@ export default function Partners() {
 
             <div className="container px-5 py-24 mx-auto">
               <div className="flex flex-col text-center w-full mb-20">
-                      <h1 className="font-BrothersBold sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Partners</h1>
+                      <h1 className="font-BrothersBold sm:text-3xl text-2xl mb-4 text-gray-200">Partners</h1>
               </div>
               <div id="wow" className="w-full flex flex-wrap lg:flex-nowrap justify-center">
                 <div className="w-3/5 lg:w-full p-4 h-full flex justify-center">
