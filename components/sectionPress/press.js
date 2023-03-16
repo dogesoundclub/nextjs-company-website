@@ -18,7 +18,7 @@ export default function Press() {
                         <div className="md:flex-grow">
                         <h2 className="text-xl font-NotoSansBold text-gray-900 title-font mb-2">LG Household &amp; Health Care Sells Out &apos;Dr. Groot&apos; NFTs in One Day.</h2>
                         <p className="text-sm font-NotoSans leading-relaxed">LG Household &amp; Health Care announced on August 3 that all 2,000 units of its &quot;Dr. Groot Universe NFT,&quot; which it released in collaboration with DSC Label, were sold out in just one day. (...)</p>
-                        <a className="text-indigo-500 inline-flex items-center mt-4" href="https://www.cnbnews.com/news/article.html?no=558456" target="_blank">Go to article
+                        <a className="text-indigo-500 inline-flex items-center mt-4" href="https://www.cnbnews.com/news/article.html?no=558456" target="_blank" rel="noopener noreferrer">Go to article
                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
@@ -34,7 +34,7 @@ export default function Press() {
                         <div className="md:flex-grow">
                         <h2 className="text-xl font-NotoSansBold text-gray-900 title-font mb-2">EDM·NFT Festival &apos;Micro Seoul 2022&apos; Comes to an End.</h2>
                         <p className="text-sm font-NotoSans leading-relaxed">The two-day &apos;Micro Seoul 2022:NFT Sound &amp; Beer Fiesta&apos;, an EDM festival, was successfully held at Seoul Landwith more than 20 NFT and blockchain companies. (...)</p>
-                        <a className="text-indigo-500 inline-flex items-center mt-4" href="https://www.etnews.com/20220831000304" target="_blank">Go to article
+                        <a className="text-indigo-500 inline-flex items-center mt-4" href="https://www.etnews.com/20220831000304" target="_blank" rel="noopener noreferrer">Go to article
                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
@@ -50,7 +50,7 @@ export default function Press() {
                         <div className="md:flex-grow">
                         <h2 className="text-xl font-NotoSansBold text-gray-900 title-font mb-2">DSC donates 10 Ethereum to Ukraine.</h2>
                         <p className="text-sm font-NotoSans leading-relaxed">Korean NFT project, Doge Sound Club (DSC), has donated 10 Ethereum to Ukraine. DSC raised funds from the sale of their 0th Mate and donated the Ethereum to Ukrainian government. (...)</p>
-                        <a className="text-indigo-500 inline-flex items-center mt-4" href="https://www.mbn.co.kr/news/world/4722103" target="_blank">Go to article
+                        <a className="text-indigo-500 inline-flex items-center mt-4" href="https://www.mbn.co.kr/news/world/4722103" target="_blank" rel="noopener noreferrer">Go to article
                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
