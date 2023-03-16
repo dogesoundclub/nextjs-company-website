@@ -5,10 +5,10 @@ export default function Team() {
 
     return (
         <>
-            <section id="team" className="text-gray-600 body-font">
+            <section id="team" className="text-gray-600">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col text-center w-full mb-20">
-                    <h1 className="font-BrothersBold sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-200">Team</h1>
+                    <h1 className="font-BrothersBold sm:text-3xl text-2xl  mb-4 text-gray-200">Team</h1>
                     {/* <p className="font-NotoSansBold lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p> */}
                     </div>
                     <div className="flex flex-wrap items-center justify-center -m-1">
@@ -22,7 +22,7 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
-                            <h2 className="text-gray-900 title-font font-medium">Abito</h2>
+                            <h2 className="text-gray-200 ">Abito</h2>
                             <p className="text-gray-500">CEO</p>
                         </div>
                         </div>
@@ -37,7 +37,7 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
-                            <h2 className="text-gray-900 title-font font-medium">Onceagain</h2>
+                            <h2 className="text-gray-200 ">Onceagain</h2>
                             <p className="text-gray-500">CBO</p>
                         </div>
                         </div>
@@ -52,7 +52,7 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
-                            <h2 className="text-gray-900 title-font font-medium">Tiger</h2>
+                            <h2 className="text-gray-200 ">Tiger</h2>
                             <p className="text-gray-500">COO</p>
                         </div>
                         </div>
@@ -67,7 +67,7 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
-                            <h2 className="text-gray-900 title-font font-medium">Rabbit</h2>
+                            <h2 className="text-gray-200 ">Rabbit</h2>
                             <p className="text-gray-500">Tech Lead</p>
                         </div>
                         </div>
@@ -82,7 +82,7 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
-                            <h2 className="text-gray-900 title-font font-medium">Smlee</h2>
+                            <h2 className="text-gray-200 ">Smlee</h2>
                             <p className="text-gray-500">Developer</p>
                         </div>
                         </div>
@@ -97,7 +97,7 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
-                            <h2 className="text-gray-900 title-font font-medium">Yuyu</h2>
+                            <h2 className="text-gray-200 ">Yuyu</h2>
                             <p className="text-gray-500">Project Manager</p>
                         </div>
                         </div>
@@ -112,7 +112,7 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
-                            <h2 className="text-gray-900 title-font font-medium">4rtsheep</h2>
+                            <h2 className="text-gray-200 ">4rtsheep</h2>
                             <p className="text-gray-500">Community Manager</p>
                         </div>
                         </div>
@@ -127,7 +127,7 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
-                            <h2 className="text-gray-900 title-font font-medium">Bibi</h2>
+                            <h2 className="text-gray-200 ">Bibi</h2>
                             <p className="text-gray-500">Designer</p>
                         </div>
                         </div>
@@ -142,7 +142,7 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
-                            <h2 className="text-gray-900 title-font font-medium">YJ</h2>
+                            <h2 className="text-gray-200 ">YJ</h2>
                             <p className="text-gray-500">Technical Advisor</p>
                         </div>
                         </div>
@@ -157,7 +157,7 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
-                            <h2 className="text-gray-900 title-font font-medium">Kingbit</h2>
+                            <h2 className="text-gray-200 ">Kingbit</h2>
                             <p className="text-gray-500">Community Advisor</p>
                         </div>
                         </div>
