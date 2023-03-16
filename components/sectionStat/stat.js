@@ -4,8 +4,8 @@ export default function Statistic(){
     return (
         <>
             <section className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto flex flex-wrap">
-                    <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                <div className="container px-5 py-24 mx-auto flex flex-wrap justify-center">
+                    <div className="flex flex-wrap justify-center mt-auto mb-auto lg:w-1/2 sm:pr-10 flex flex-wrap ">
                     <div className="w-full sm:p-4 px-4 mb-6">
                         <h1 className="font-BrothersBold sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">STAT</h1>
                         <div className="font-NotoSansBold lg:w-2/3 leading-relaxed text-base">Our blockchain assets and online followers stat.</div>
@@ -27,7 +27,7 @@ export default function Statistic(){
                         <p className="leading-relaxed">NFT Collecions</p>
                     </div>
                     </div>
-                    <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                    <div className="lg:w-1/32 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
                     <StatAnimation/>
                     </div>
                 </div>

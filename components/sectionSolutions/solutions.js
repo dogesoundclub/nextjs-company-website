@@ -24,7 +24,7 @@ export default function Solutions() {
 
         case 'promote': {
           setTitle('Crypto Marketing');
-          setDescription('Our solutions help you to promote your products and brand to reach a wider audience.');
+          setDescription('To increase the value of your digital assets, they must be marketed to cryptocurrency holders. Our network is built around cryptocurrency holders.');
           console.log('promote');
           return;
         }

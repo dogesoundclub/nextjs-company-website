@@ -127,6 +127,21 @@ export default function Team() {
                             height={64}
                             />
                         <div className="flex-grow" style={{marginLeft: '1rem'}}>
+                            <h2 className="text-gray-900 title-font font-medium">Bibi</h2>
+                            <p className="text-gray-500">Designer</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div className="project-card p-2 lg:w-1/4 md:w-1/3 w-full">
+                        <div className="h-full flex items-center">
+                        <Image
+                            alt="team"
+                            className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="/profileDummy/dummyProfile8.png"
+                            width={64}
+                            height={64}
+                            />
+                        <div className="flex-grow" style={{marginLeft: '1rem'}}>
                             <h2 className="text-gray-900 title-font font-medium">YJ</h2>
                             <p className="text-gray-500">Technical Advisor</p>
                         </div>
@@ -137,7 +152,7 @@ export default function Team() {
                         <Image
                             alt="team"
                             className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src="/profileDummy/dummyProfile8.png"
+                            src="/profileDummy/dummyProfile9.png"
                             width={64}
                             height={64}
                             />

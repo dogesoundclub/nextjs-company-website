@@ -54,9 +54,9 @@ export default function Header(){
             const header = document.querySelector('header');
             if (header && window.scrollY > 0) {
                 header.classList.add('bg-gray-900');
-                header.classList.remove('bg-transparent');
+                // header.classList.remove('bg-transparent');
             } else {
-                header.classList.add('bg-transparent');
+                // header.classList.add('bg-transparent');
                 header.classList.remove('bg-gray-900');
             }
         };
